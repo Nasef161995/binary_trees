@@ -4,12 +4,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_node - ......
- * @parent: Pointer to the node to print
- * @value: Offset to print
- * Return: ...
+ * binary_tree_node - function that creates a binary tree node
+ * @parent: Pointer to the parent
+ * @value: data of nodes
+ * Return: pointer of new node
  */
-
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 {
 binary_tree_t *new = malloc(sizeof(binary_tree_t));

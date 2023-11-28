@@ -4,10 +4,10 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_insert_left - ......
+ * binary_tree_insert_left - function that inserts a node
  * @parent: Pointer to the node to print
- * @value: Offset to print
- * Return: ...
+ * @value: data of nodes
+ * Return: pointer to new node
  */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
