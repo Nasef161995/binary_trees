@@ -23,6 +23,8 @@ return (NULL);
 }
 new->n = value;
 new->parent = parent;
+new->left = NULL;
+new->right = NULL;
 if (parent->left != NULL)
 {
 new->left = parent->left;
